@@ -3,6 +3,7 @@
     --c-secundario: #0176C3;
     --c-secundario-claro: #C7EEFF;
     --c-blanco: #FAFAFA;
+    --c-negro: #000000;
 }
 
 @font-face {
@@ -59,8 +60,13 @@ button {
 .container {
     max-width: 1024px;
     margin: auto;
-    padding-left: 6rem !important;
     padding: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Titulo de página */

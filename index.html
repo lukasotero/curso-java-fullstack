@@ -18,20 +18,17 @@
 </head>
 
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-inner">
-            <header class="sidebar-header">
-                <button class="sidebar-burger" onclick="toggleSidebar()"></button>
-                <img src="assets/img/misc/logo.png" class="sidebar-logo" alt="logo">
-            </header>
-            <nav class="sidebar-nav">
-                <button type="button">
-                    <img src="assets/img/misc/inicio.svg" alt="Inicio">
-                    <span style="animation-delay: 0.1s">Inicio</span>
-                </button>
-            </nav>
+    <nav id="nav">
+        <div class="container-nav flex">
+            <a href="/">
+                <img src="assets/img/misc/logo.png" alt="logo">
+            </a>
+            <div class="links">
+                <a href="/">Inicio</a>
+                <a href="/">Juegos</a>
+            </div>
         </div>
-    </aside>
+    </nav>
     <main class="container">
         <h1 class="display-1">Juegos</h1>
         <div class="container-juegos">
@@ -108,7 +105,9 @@
             reservados.
         </span>
     </footer>
+
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/navbar.js"></script>
 </body>
 
 </html>
