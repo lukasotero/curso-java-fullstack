@@ -1,4 +1,4 @@
-/* === TRIANGLE START === */
+/* TRIANGULO START */
 .custom-shape-divider-top-1672932041 {
     position: absolute;
     top: 0;
@@ -20,14 +20,15 @@
     fill: #f5f5f5;
 }
 
-/* === TRIANGLE END === */
+/* TRIANGULO END */
+
 footer {
     padding: 3rem 1rem 1rem;
     position: relative;
     overflow: hidden;
     align-items: flex-start;
     justify-content: space-between;
-    background: #1a1e23;
+    background: var(--c-primario);
     color: #fff;
 }
 

@@ -1,3 +1,10 @@
+:root {
+    --c-primario: #1D242C;
+    --c-secundario: #0176C3;
+    --c-secundario-claro: #C7EEFF;
+    --c-blanco: #FAFAFA;
+}
+
 @font-face {
     font-family: 'SF-Pro';
     src: url('../fonts/SFPro-Regular.ttf') format('truetype');
@@ -42,9 +49,17 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1024px;
     margin: auto;
+    padding-left: 6rem !important;
     padding: 1.5rem;
 }
 

@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juegos</title>
+    <title>Gamestem</title>
+
     <!-- LOGO DE LA PAGINA -->
     <link rel="icon" href="assets/img/misc/logo.png" type="image/png" sizes="16x16">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 </head>
 
 <body>
+    <aside class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button class="sidebar-burger" onclick="toggleSidebar()"></button>
+                <img src="assets/img/misc/logo.png" class="sidebar-logo" alt="logo">
+            </header>
+            <nav class="sidebar-nav">
+                <button type="button">
+                    <img src="assets/img/misc/inicio.svg" alt="Inicio">
+                    <span style="animation-delay: 0.1s">Inicio</span>
+                </button>
+            </nav>
+        </div>
+    </aside>
     <main class="container">
         <h1 class="display-1">Juegos</h1>
         <div class="container-juegos">
@@ -30,7 +46,6 @@
             <img src="assets/img/juegos/warframe.jpg" alt="Warframe">
         </div>
     </main>
-
     <footer>
         <div class='custom-shape-divider-top-1672932041'>
             <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'
@@ -42,7 +57,7 @@
             <div class='wrapper'>
                 <a href='/' class='footer-logo'>
                     <img src="assets/img/misc/logo.png" class='footer-logo-img' alt='Logo' />
-                    <h1>EnjoyAllTime</h1>
+                    <h1>Gamestem</h1>
                 </a>
                 <p class='footer-descripcion'>Añadiendo diversión a tu vida</p>
             </div>
@@ -93,6 +108,7 @@
             reservados.
         </span>
     </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
