@@ -60,6 +60,7 @@ button {
 .container {
     max-width: 1024px;
     margin: auto;
+    padding-top: 5rem !important;
     padding: 1.5rem;
 }
 

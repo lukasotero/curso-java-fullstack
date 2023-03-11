@@ -9,6 +9,7 @@ nav {
     justify-content: space-between;
     background-color: var(--c-blanco);
     transition: 0.3s;
+    z-index: 1;
 }
 
 nav.scrolled-down {
